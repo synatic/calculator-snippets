@@ -1,0 +1,108 @@
+.align-center {
+    width: 100%;
+    margin: 1rem 0px 1rem 0px;
+}
+
+div.align-center * {
+    overflow: none;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.catalog-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    overflow: auto;
+    margin: 1rem 0px 1rem 0px;
+}
+
+div.catalog-button * {
+    width: 100%;
+    padding: 2rem;
+    margin: auto;
+}
+
+div.catalog-button a {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+}
+
+div.catalog-button a:hover {
+    background-color: #0069d9;
+
+}
+
+.dual-buttons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    overflow: auto;
+    margin: 1rem 0px 1rem 0px;
+}
+
+div.dual-buttons * {
+    width: 40%;
+    padding: 2rem;
+    margin: auto;
+}
+
+div.dual-buttons a {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+}
+
+div.dual-buttons a:hover {
+    background-color: #0069d9;
+
+}
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    opacity: 1;
+    background-color: white;
+}
+
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 2s, opacity 2s linear;
+}
+
+#loader-img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    overflow: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
